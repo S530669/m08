@@ -1,0 +1,26 @@
+{
+  "name": "City",
+  "plural": "Cities",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Country": {
+      "type": "string",
+      "required": true
+    },
+    "Continent": {
+      "type": "string",
+      "required": true
+    },
+    "Temperature": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
